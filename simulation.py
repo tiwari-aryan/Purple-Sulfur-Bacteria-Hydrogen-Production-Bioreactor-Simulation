@@ -175,7 +175,6 @@ while running:
         population -= population // 2**7
 
     time_counter += int(1 + vel * 10)
-    print(population)
 
     # for loop through the event queue
     for event in pygame.event.get():
